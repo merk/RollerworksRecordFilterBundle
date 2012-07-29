@@ -14,9 +14,14 @@
         "php": ">=5.3.3",
         "symfony/symfony": "2.*,<2.0.x-dev",
         "symfony/options-resolver": "dev-master",
-        "doctrine/orm": ">=2.1,<2.3-dev",
         "jms/metadata": ">=1.1.1",
         "rollerworks/locale": "dev-master"
+    },
+    "require-dev": {
+        "doctrine/orm": ">=2.1,<2.4-dev"
+    },   
+    "suggest": {
+        "doctrine/orm": "If you want to use the SQL part of the bundle."
     },
     "autoload": {
         "psr-0": { "Rollerworks\\Bundle\\RecordFilterBundle": "" }
